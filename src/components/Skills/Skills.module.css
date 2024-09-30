@@ -1,0 +1,205 @@
+#skills {
+  padding-left: 15% !important;
+  padding-right: 15% !important
+}
+
+@media (max-width: 768px) {
+  #skills {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-top: 15% !important
+  }
+}
+
+.skillsTitle {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.skillsHeading {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative;
+  margin: 0 0 30px;
+  color: #000;
+  font-family: Playfair Display, Georgia, serif
+}
+
+.skillsText {
+  margin-bottom: 1.5em;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #000000b3
+}
+
+.progressTitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  margin: 25px 0 0
+}
+
+.progress {
+  height: 6px;
+  box-shadow: none;
+  background: #f2f3f7;
+  overflow: visible
+}
+
+.progressBar:after {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  content: "";
+  background: #2c98f0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%
+}
+
+.proColor1 .progressBar:before {
+  content: "75%";
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 5px
+}
+
+.proColor1 .progressBar:after,
+.proColor1 .progressBar {
+  color: #2c98f0 !important;
+  background: #2c98f0 !important
+}
+
+.proColor2 .progressBar:before {
+  content: "85%";
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 5px
+}
+
+.proColor2 .progressBar:after,
+.proColor2 .progressBar {
+  color: #f9bf3f !important;
+  background: #f9bf3f !important
+}
+
+.proColor3 .progressBar:before {
+  content: "70%";
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 5px
+}
+
+.proColor3 .progressBar:after,
+.proColor3 .progressBar {
+  color: #2fa499 !important;
+  background: #2fa499 !important
+}
+
+.proColor4 .progressBar:before {
+  content: "60%";
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 5px
+}
+
+.proColor4 .progressBar:after,
+.proColor4 .progressBar {
+  color: #ec5453 !important;
+  background: #ec5453 !important
+}
+
+.proColor5 .progressBar:before {
+  content: "90%";
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 5px
+}
+
+.proColor5 .progressBar:after,
+.proColor5 .progressBar {
+  color: #a84cb8 !important;
+  background: #a84cb8 !important
+}
+
+.proColor6 .progressBar:before {
+  content: "80%";
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 5px
+}
+
+.proColor6 .progressBar:after,
+.proColor6 .progressBar {
+  color: #4054b2 !important;
+  background: #4054b2 !important
+}
+
+.progressBar {
+  box-shadow: none;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #000;
+  font-weight: 600;
+  text-align: right;
+  position: relative;
+  overflow: visible;
+  border-radius: 8px;
+  float: left;
+  height: 100%;
+  transition: width .6s ease
+}
+
+.photoshopBar {
+  width: 75%;
+}
+
+.htmlBar {
+  width: 85%;
+}
+
+.wordpressBar {
+  width: 70%;
+}
+
+.jQueryBar {
+  width: 60%;
+}
+
+.cssBar {
+  width: 90%;
+}
+
+.seoBar {
+  width: 80%;
+}
